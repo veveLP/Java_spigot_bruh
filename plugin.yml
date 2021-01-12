@@ -2,7 +2,7 @@ name: bruh
 version: 1.1
 author: veveLP
 main: debserver.bruh.Main
-description: fucking stupid!
+description: 
 
 commands:
   bruh:
