@@ -20,18 +20,18 @@ public class bruhcommand implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
-		if (!(sender instanceof Player)) {sender.sendMessage("Sorry ale jenom hr·Ëi");
+		if (!(sender instanceof Player)) {sender.sendMessage("Sorry ale jenom hr√°√®i");
 		return true; }
 		
 		Player p = (Player) sender;
-		if (p.hasPermission("hello.use")) {
+		if (p.hasPermission("bruh.use")) {
 			p.sendMessage("bruh!");
 			return true;
 		}
 		else {
 			
 			
-			p.sendMessage("Sorry ale nem·ö pr·va :/");
+			p.sendMessage("Sorry ale nem√°≈° pr√°va :/");
 			return true;
 			 }
 		
